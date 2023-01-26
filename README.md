@@ -9,8 +9,9 @@ Springboot microservices tutorial, covering core microservices concepts the micr
 
 -cloud-config: extenalize and centralize all the micro-services configurations
 
--hystrix:-dashboard a service that controls the interaction between microservices to provide latency and fault tolerance, 
+-hystrix-dashboard a service that controls the interaction between microservices to provide latency and fault tolerance, 
 this allows the micro-services to be resilient,
+
 Hystrix is a library from Netflix. Hystrix isolates the points of access between the services, 
 stops cascading failures across them and provides the fallback options. 
 
