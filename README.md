@@ -1,11 +1,12 @@
 # Springboot-microservices
 Springboot microservices tutorial, covering core microservices concepts the microservices are:
 
--API-Gateway: to routing external and internal api calls to our micro-services
+-API-Gateway: for routing external and internal api calls to our micro-services,
+all service calls go via the api gateway,
 
--Zipkin server for log tracing
+-Zipkin server for log tracing, instrument the micro-services to send log tracing details to zipkin server
 
--Sleuth work in collaboration with zipking to allow the microservices to end log-tracing to zipkin server
+-Sleuth work in collaboration with zipking to allow the microservices to send log-tracing to zipkin server
 
 -cloud-config: extenalize and centralize all the micro-services configurations
 
