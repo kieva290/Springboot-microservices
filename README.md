@@ -8,7 +8,7 @@ all service calls go via the api gateway,
 
 -Sleuth work in collaboration with zipking to allow the microservices to send log-tracing to zipkin server
 
--cloud-config: extenalize and centralize all the micro-services configurations
+-cloud-config: externalize and centralize all the micro-services configurations
 
 -hystrix-dashboard a service that controls the interaction between microservices to provide latency and fault tolerance, 
 this allows the micro-services to be resilient,
