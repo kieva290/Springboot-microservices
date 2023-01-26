@@ -15,9 +15,9 @@ this allows the micro-services to be resilient,
 Hystrix is a library from Netflix. Hystrix isolates the points of access between the services, 
 stops cascading failures across them and provides the fallback options. 
 
--depart-service
+-department-service: service to create a department
 
--user-service
+-user-service: service to create a user, linked to a department, makes use of the department service, when creating a user object,
 
 -service-registry: for registering all our micro-services
 ------------
